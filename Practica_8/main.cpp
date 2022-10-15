@@ -22,6 +22,8 @@ void main() {
         system("cls");
     }
 
+    //Se evalua si los caracteres son letras minusculas, si es así se convierten en mayuscula dependiendo
+    //de su valor en ASCII
     for (int i = 0; i < 5; i++) {
         for (int j = 0; j < 100; j++) {
             if (Persona[i].nombre[j] > 96 && Persona[i].nombre[j] < 123) {
@@ -29,6 +31,7 @@ void main() {
             }
         }
     }
+
 
     for (int i = 0; i < 5; i++) {
         for (int j = 0; j < 100; j++) {
@@ -38,6 +41,7 @@ void main() {
         }
     }
 
+    //Se solicita un nombre a buscar
     cout << "Buscar: ";
     cin >> Busqueda;
 
